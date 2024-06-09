@@ -1,11 +1,10 @@
 # Ignore everything
 *
 
-# But not these files...
-!.gitignore
-!./sway
-!./waybar
-# etc...
-
-# ...even if they are in subdirectories
+# Do not ignore directories and their contents
 !*/
+
+# Do not ignore the sway and waybar directories and their contents
+!.gitignore
+!sway/
+!waybar/
